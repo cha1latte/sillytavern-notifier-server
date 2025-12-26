@@ -9,11 +9,11 @@ Server plugin to notify connectend clients about new replies on other clients. P
 
 ## Installation (server plugin)
 
-Copy the `server-plugin` folder to your SillyTavern plugins directory:
+Clone the repository into your SillyTavern plugins directory:
 
 ```bash
-cp -r server-plugin /path/to/SillyTavern/plugins/message-ding-relay
-cd /path/to/SillyTavern/plugins/message-ding-relay
+git clone https://github.com/cha1latte/sillytavern-notifier-server
+cd sillytavern-notifier-server
 npm install
 ```
 
