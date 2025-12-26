@@ -1,0 +1,17 @@
+{
+  "name": "message-ding-relay",
+  "version": "1.0.0",
+  "description": "WebSocket relay server for cross-client message notifications in SillyTavern",
+  "main": "index.js",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "keywords": [
+    "sillytavern",
+    "plugin",
+    "websocket",
+    "notifications"
+  ],
+  "author": "cha1latte",
+  "license": "MIT"
+}
